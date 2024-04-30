@@ -1,4 +1,4 @@
-# workshpp springboot mongodb
+# Workshpp Springboot MongoDB
 
 ## Projeto: API RESTful de Gerenciamento de Usuários
 
