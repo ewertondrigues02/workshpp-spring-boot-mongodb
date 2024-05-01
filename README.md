@@ -1,6 +1,6 @@
 # Workshpp Springboot MongoDB
 
-## Projeto: API RESTful de Gerenciamento de Usuários
+## Projeto: API REST Full de Gerenciamento de Usuários
 
 **Descrição:**
 Este projeto consiste em uma API RESTful desenvolvida em Java com o framework Spring Boot para fornecer operações CRUD (Create, Read, Update, Delete) para o gerenciamento de usuários. A aplicação utiliza o MongoDB como banco de dados NoSQL para armazenar os dados dos usuários.
