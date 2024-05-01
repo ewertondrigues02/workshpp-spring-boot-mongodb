@@ -1,6 +1,7 @@
 package com.ewertonrodrigues.workshopmongo.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -36,6 +37,20 @@ public class UserService {
 		
 	}
 	
+	public User update(User obj) {
+	    Optional<User> optionalUser = repo.findById(obj.getId());
+	    User newObj = optionalUser.orElseThrow(() -> new ObjectNotFoundException("Usuário não encontrado"));
+	    updateData(newObj, obj); 
+	    return repo.save(newObj);
+	}
+	
+	private void updateData(User newObj, User obj) {
+		newObj.setName(obj.getName());
+		newObj.setEmail(obj.getEmail());
+		
+	}
+
+
 	public User fromDTO(UserDTO objDTO) {
 		return new User(objDTO.getId(), objDTO.getName(), objDTO.getEmail());
 	}
