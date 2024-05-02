@@ -25,3 +25,79 @@ Benefícios:
 **Flexibilidade:** O MongoDB oferece flexibilidade na modelagem de dados, permitindo que diferentes tipos de informações de usuários sejam armazenadas de forma eficiente.
 **Desenvolvimento Rápido:** O Spring Boot simplifica o desenvolvimento de APIs RESTful, permitindo que os desenvolvedores se concentrem na lógica de negócios em vez de configurar a infraestrutura.
 Com este projeto, os desenvolvedores podem criar uma API RESTful completa para o gerenciamento de usuários de forma eficiente e escalável usando Spring Boot e MongoDB.
+
+
+---------------------------------------------------------------------------------  ## **Relatório** ------------------------------------------------------------------------------------
+
+**Relatório de Estrutura do Projeto Workshopmongo**
+
+O projeto Workshopmongo é uma aplicação Java que utiliza o MongoDB para armazenar e manipular dados relacionados a usuários e posts. Abaixo está uma visão geral da estrutura do projeto, destacando os principais pacotes, classes e suas funcionalidades.
+
+---
+
+**Pacotes e Classes Principais:**
+
+1. **com.ewertonrodrigues.workshopmongo**
+
+   - **WorkshopmongoApplication.java:** Classe principal do projeto que inicia a aplicação Spring Boot.
+  
+2. **com.ewertonrodrigues.workshopmongo.config**
+
+   - **Instantiation.java:** Classe responsável por realizar a inicialização dos dados no MongoDB ao iniciar a aplicação.
+
+3. **com.ewertonrodrigues.workshopmongo.domain**
+
+   - **Post.java:** Classe de entidade que representa um post no sistema.
+   - **User.java:** Classe de entidade que representa um usuário no sistema.
+
+4. **com.ewertonrodrigues.workshopmongo.dto**
+
+   - **AuthorDTO.java:** Data Transfer Object (DTO) que encapsula informações básicas do autor de um post.
+   - **CommentDTO.java:** DTO que encapsula informações de um comentário em um post.
+   - **UserDTO.java:** DTO que encapsula informações de um usuário.
+
+5. **com.ewertonrodrigues.workshopmongo.repository**
+
+   - **PostRepository.java:** Interface que define operações de acesso a dados para a entidade Post.
+   - **UserRepository.java:** Interface que define operações de acesso a dados para a entidade User.
+
+6. **com.ewertonrodrigues.workshopmongo.resources**
+
+   - **PostResource.java:** Classe controladora REST que define endpoints para manipulação de posts.
+   - **UserResource.java:** Classe controladora REST que define endpoints para manipulação de usuários.
+
+7. **com.ewertonrodrigues.workshopmongo.resources.exception**
+
+   - **ResourceExceptionHandler.java:** Classe responsável por manipular exceções e retornar respostas adequadas para o cliente.
+   - **StandardError.java:** Classe que representa um erro padrão a ser retornado em caso de exceção.
+
+8. **com.ewertonrodrigues.workshopmongo.resources.util**
+
+   - **URL.java:** Classe utilitária para manipulação de URLs.
+
+9. **com.ewertonrodrigues.workshopmongo.services**
+
+   - **PostService.java:** Classe de serviço que define operações relacionadas a posts.
+   - **UserService.java:** Classe de serviço que define operações relacionadas a usuários.
+
+10. **com.ewertonrodrigues.workshopmongo.services.exception**
+
+    - **ObjectNotFoundException.java:** Exceção personalizada lançada quando um objeto não é encontrado no sistema.
+
+---
+
+Este relatório fornece uma visão geral da estrutura do projeto Workshopmongo, destacando os principais pacotes, classes e suas funcionalidades. Cada pacote e classe desempenha um papel importante na implementação e funcionamento da aplicação.
+
+## Veja o Diagrama de Classes:
+
+![Captura de tela 2024-05-02 171534](https://github.com/ewertondrigues02/workshpp-spring-boot-mongodb/assets/106437473/ff7332f1-24de-4c69-b654-cadeb3367c22)
+
+
+
+
+
+
+
+
+
+
