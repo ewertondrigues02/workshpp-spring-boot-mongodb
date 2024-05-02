@@ -27,13 +27,12 @@ Benefícios:
 Com este projeto, os desenvolvedores podem criar uma API RESTful completa para o gerenciamento de usuários de forma eficiente e escalável usando Spring Boot e MongoDB.
 
 
----------------------------------------------------------------------------------  ## **Relatório** ------------------------------------------------------------------------------------
+      --------------------------------------------------------------------  ## **Relatório** --------------------------------------------------------------------
 
 **Relatório de Estrutura do Projeto Workshopmongo**
 
 O projeto Workshopmongo é uma aplicação Java que utiliza o MongoDB para armazenar e manipular dados relacionados a usuários e posts. Abaixo está uma visão geral da estrutura do projeto, destacando os principais pacotes, classes e suas funcionalidades.
 
----
 
 **Pacotes e Classes Principais:**
 
@@ -84,7 +83,7 @@ O projeto Workshopmongo é uma aplicação Java que utiliza o MongoDB para armaz
 
     - **ObjectNotFoundException.java:** Exceção personalizada lançada quando um objeto não é encontrado no sistema.
 
----
+
 
 Este relatório fornece uma visão geral da estrutura do projeto Workshopmongo, destacando os principais pacotes, classes e suas funcionalidades. Cada pacote e classe desempenha um papel importante na implementação e funcionamento da aplicação.
 
