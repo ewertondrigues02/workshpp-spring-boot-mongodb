@@ -95,7 +95,8 @@ Este relatório fornece uma visão geral da estrutura do projeto Workshopmongo, 
 
 ## Diagrama Conceitual:
 
-![diagrama de projeto](https://github.com/ewertondrigues02/workshpp-spring-boot-mongodb/assets/106437473/ca691a07-dd45-4658-b9b3-957d16447003)
+
+![diagrama de projeto](https://github.com/ewertondrigues02/workshpp-spring-boot-mongodb/assets/106437473/32affb68-3a2a-4c81-8d1e-3b4fdb847b0d)
 
 
 
