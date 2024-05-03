@@ -86,11 +86,16 @@ O projeto Workshopmongo é uma aplicação Java que utiliza o MongoDB para armaz
 
 Este relatório fornece uma visão geral da estrutura do projeto Workshopmongo, destacando os principais pacotes, classes e suas funcionalidades. Cada pacote e classe desempenha um papel importante na implementação e funcionamento da aplicação.
 
-## Veja o Diagrama:
+## Veja o Diagrama de Camadas:
 
 
 ![diagrama de camadas](https://github.com/ewertondrigues02/workshpp-spring-boot-mongodb/assets/106437473/4e7fdb76-6dce-4031-8235-3cfe92fd5f0f)
 
+
+
+## Diagrama Conceitual:
+
+![diagrama de projeto](https://github.com/ewertondrigues02/workshpp-spring-boot-mongodb/assets/106437473/ca691a07-dd45-4658-b9b3-957d16447003)
 
 
 
