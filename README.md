@@ -1,4 +1,4 @@
-# Workshpop Springboot MongoDB
+# Workshop Springboot MongoDB
 
 ## Projeto: API REST Full de Gerenciamento de Usuários
 
