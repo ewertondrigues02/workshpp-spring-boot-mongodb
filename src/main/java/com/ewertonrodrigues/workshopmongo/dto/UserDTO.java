@@ -1,50 +1,88 @@
 package com.ewertonrodrigues.workshopmongo.dto;
 
-import java.io.Serializable;
-
 import com.ewertonrodrigues.workshopmongo.domain.User;
 
-public class UserDTO implements Serializable{
+import java.io.Serializable;
 
-	private static final long serialVersionUID = 1L;
-	private String id;
-	private String name;
-	private String email;
-	
-	
-	public UserDTO() {
-		
-	}
-	
-	public UserDTO(User obj) {
-		id = obj.getId();
-		name = obj.getName();
-		email = obj.getEmail();
-	}
+/**
+ * Data Transfer Object (DTO) que representa um usuário.
+ * Esse DTO é utilizado para transferir dados do usuário sem expor diretamente a entidade User.
+ */
+public class UserDTO implements Serializable {
 
-	public String getId() {
-		return id;
-	}
+    private static final long serialVersionUID = 1L;
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    /**
+     * Identificador único do usuário
+     */
+    private String id;
 
-	public String getName() {
-		return name;
-	}
+    /**
+     * Nome do usuário
+     */
+    private String name;
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    /**
+     * Email do usuário
+     */
+    private String email;
 
-	public String getEmail() {
-		return email;
-	}
+    /**
+     * Construtor padrão sem argumentos.
+     */
+    public UserDTO() {
+    }
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
-	
-	
+    /**
+     * Construtor que inicializa um UserDTO com os dados de um usuário.
+     *
+     * @param obj Objeto da entidade {@link User} do qual os dados serão extraídos.
+     */
+    public UserDTO(User obj) {
+        this.id = obj.getId();
+        this.name = obj.getName();
+        this.email = obj.getEmail();
+    }
+
+    /**
+     * @return O identificador único do usuário
+     */
+    public String getId() {
+        return id;
+    }
+
+    /**
+     * @param id Define o identificador único do usuário
+     */
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    /**
+     * @return O nome do usuário
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name Define o nome do usuário
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * @return O email do usuário
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * @param email Define o email do usuário
+     */
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }
